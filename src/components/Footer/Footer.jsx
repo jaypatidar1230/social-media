@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from "../logo.png"
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
                         <div className="flex h-full flex-col justify-between">
                             <div className="mb-4 inline-flex items-center">
-                                <img src="../logo.png" alt="logo" />
+                                <img src={Logo} alt="logo" className='w-64'/>
                             </div>
                             <div>
                                 <p className="text-sm text-gray-600">
@@ -20,7 +21,7 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9  text-xs font-bold uppercase text-gray-500">
                                 Company
                             </h3>
                             <ul>
@@ -61,7 +62,7 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9  text-xs font-bold uppercase text-gray-500">
                                 Support
                             </h3>
                             <ul>
@@ -102,7 +103,7 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-3/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9  text-xs font-bold uppercase text-gray-500">
                                 Legals
                             </h3>
                             <ul>
